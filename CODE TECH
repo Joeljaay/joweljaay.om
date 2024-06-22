@@ -1,0 +1,308 @@
+<html>
+    <head>
+        <title>
+        CODE TECH
+        </title>
+    </head>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        nav{
+            width: 100%;
+            height: 50px;
+            text-align: center;
+            background-color: chocolate;
+        }
+
+        li{
+            display: inline-block;
+            color: white;
+            margin: 10px;
+            
+        }
+
+        section{
+            width: 100%;
+            height: 90vh;
+            background-image: linear-gradient(rgba(50,50,50,0.7), rgba(50,50,50,0.7)), url(bkk.jpg);
+            background-size: cover;
+        }
+
+        .all{
+            display: flex;
+            margin-top: 70px;
+        }
+
+        .fr{
+            width: 500px;
+            height: 200px;
+            background-color: peru;
+            margin-left: 170px;
+            border-top-left-radius: 15px;
+            border-bottom-left-radius: 15px;
+            
+        }
+
+        
+
+        .sc{
+            width: 500px;
+            height: 200px;
+            background-color: chocolate;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+        }
+
+        .fom{
+            display: flex;
+            justify-content: center;
+        }  
+
+        .txt{
+            width: 100%;
+            height: 50px;
+            background-color: chocolate;
+        } 
+        
+        .mn{
+            display: flex;
+           
+        }
+
+        .sm{
+            display: flex;
+        }
+
+        .tm{
+            display: flex;
+        }
+
+        .lasdiv{
+            display: flex;
+        }
+
+       .end{
+        display: flex;
+        background-color:burlywood;
+        justify-content: center;
+        
+       }
+
+       .end ul li{
+        display: block;
+        font-size: 17px;
+       }
+
+      .alnd{
+        margin-right: 80px;
+      }
+
+      .alend{
+        margin-left: 80px;
+      }
+
+      .finished{
+        width: 100%;
+        height: 20px;
+        background-color: chocolate;
+      }
+
+      header{
+        width: 100%;
+        height: 50px;
+        background-color: rgb(34, 16, 2);
+        
+      }
+
+      .picdiv{
+        display: flex;
+       
+      }
+
+      body {
+           font-family: Tahoma, Arial, sans-serif;
+           font-size: 13px;     
+        }  
+        
+        #N{
+            margin-top: 100px;
+        }
+    </style>
+    <body style="background-color: burlywood;">
+        <section>
+            <header>
+                <br>
+                <b style="color: chocolate; margin-left: 500px;">We are trying out our new website. Feedback welcome</b>
+            </header>
+        <nav>
+            <ul>
+                <li><a href="#N">News</a></li>
+                <li><a href="#E">Events</a></li>
+                <li><a href="#C">Contact</a></li>
+            </ul>
+        </nav>
+        <h1 style=" margin-top: 250px; font-size: 45px; text-shadow: 3px 3px 3px black; color: white;">You are Most Welcome to CODE TECH,</h1>
+
+        <h1 style="font-size: 45px; text-shadow: 3px 3px 3px black; color: goldenrod;">where your programing journey starts</h1>
+
+        <div class="all">
+            <div class="fr">
+                <h1 style="color: white; margin-left: 180px;margin-top: 60px;"><u>Our Mission</u></h1><br>
+                <b style="color: white; margin-left: 120px;">Get many people involved in coding</b>
+            </div>
+             
+            <div class="sc">
+                <h1 style="color: white;  margin-left: 180px; margin-top: 60px;"><u>Get involved</u></h1><br>
+                <b style="color: white; margin-left: 180px;">Follow CODE TECH</b>
+            </div>
+        </div>
+        </section>
+       
+        <br><br>
+        
+        <h1 style="margin-left: 580px;" id="N">Lastest News</h1>
+        <br><br>
+
+        <div class="picdiv">
+        <div class="pc">
+       <img src="fs.jpg" style="width: 250px; height: 200px; margin-left: 250px;">
+       <p style="margin-left: 310px;">New projects ongoing</p>
+       </div>
+
+       <div class="pc">
+       <img src="sd.jpg" style="width: 250px; height: 200px; margin-left: 50px;">
+       <p style="margin-left: 50px;">A new website would be launched soon</p>
+       </div>
+
+       <div class="pc">
+       <img src="td.jpg" style="width: 250px; height: 200px; margin-left: 50px;">
+       <p style="margin-left: 70px;">A donated to laptop to projects </p>
+       
+       </div>
+       
+       </div>
+
+        <br><br>
+        <button style="background-color: rgb(34, 16, 2); border: none; width: 150px; border-radius: 17px; color:white; margin-left: 585px; padding: 12px;"><a href="read.html">Read More</a></button>
+        <br><br>
+        <div class="txt">
+            <b style="color: white; margin-left: 500px;">Partner and make tech moves with CODE TECH</b><br>
+            <b style="margin-left: 550px; color: white;">and start building big projects</b>
+        </div>
+       <br>
+       <h1 style="margin-left: 100px;" id="E">Upcoming Events</h1><br>
+       <hr style="width: 50px; border: 2px solid black; margin-left: 100px;">
+       <br><br>
+
+       <div class="mn">
+                <div class="on" style="margin-left: 100px;">
+                    <b style="font-size: 50px;">20</b>
+                </div>
+
+                <div class="on" style="margin-top: 12px;">
+                    <label>Fri</label><br>
+                    <label  >Aug</label>
+                </div>
+
+                <div class="on" style="margin-top: 20px; font-size: 30px; margin-left: 9px;">
+                    <b>At Marina Mall</b>
+                </div>
+
+                <div class="on" style="margin-left: 527px; margin-top: 15px;">
+                    <button style="padding: 10px; background-color: rgb(34, 16, 2); border: none; color: white;"><a href="reg.html">Register Now</a></button>
+                 </div>
+        </div>
+        <br>
+        <hr style="width: 1340px; border: 1px solid black;">
+        <br>
+        
+        
+       <div class="sm">
+        <div class="in" style="margin-left: 100px;">
+            <b style="font-size: 50px;">23</b>
+        </div>
+
+        <div class="in" style="margin-top: 12px;">
+            <label>Fri</label><br>
+            <label>Sep</label>
+        </div>
+
+        <div class="in" style="margin-top: 17px; font-size: 30px; margin-left: 9px;">
+            <b>At Las Ve gas</b>
+        </div>
+
+        <div class="in" style="margin-left: 545px; margin-top: 15px;">
+            <button style="padding: 10px; background-color: rgb(34, 16, 2); border: none; color: white;"><a href="reg.html">Register Now</a></button>
+
+        </div>
+</div>
+<br>
+<hr style="width: 1340px; border: 1px solid black;">
+<br>
+
+
+<div class="tm">
+    <div class="un" style="margin-left: 100px;">
+        <b style="font-size: 50px;">25</b>
+    </div>
+
+    <div class="un" style="margin-top: 12px;">
+        <label>Fri</label><br>
+        <label>Dec</label>
+    </div>
+
+    <div class="un" style="margin-top: 17px; font-size: 30px; margin-left: 9px;">
+        <b>At La Palm</b>
+    </div>
+
+    <div class="un" style="margin-left: 585px; margin-top: 15px;">
+        <button style="padding: 10px; background-color: rgb(34, 16, 2); border: none; color: white;"><a href="reg.html">Register Now</a></button>
+
+    </div>
+</div>
+<br><br>
+<div class="tgr" id="C">
+<div class="lasdiv">
+    <div class="text" style="width: 450px; height: 350px; background-color: chocolate;">
+    <h1 style="margin-top: 80px; margin-left: 150px; color: white;">Join Us</h1><br>
+    <b style="margin-left: 160px; color: white;">Let's Code</b><br>
+    <b style="margin-left: 166px; color: white;">Together</b><br>
+    <br>
+    <button style="padding: 10px; background-color: rgb(34, 16, 2); border: none; color: white; margin-left: 125px; padding: 10px; color: white; width: 150px; border-radius: 15px;"><a href="join.html">JOIN</a></button>
+    </div>
+    <div class="pic">
+        <img src="div.jpg" style="width: 900px; height: 350px;">
+    </div>
+</div>
+<br><br>
+
+<div class="end">
+    <div class="alnd">
+              <h1>CODE TECH</h1><br>
+              <b>Let Sart the programing journey</b><br>
+              <b>with just a click on our site.</b>
+              <br><br><br>
+              <button style="width: 100px; border: none; background-color: rgb(34, 16, 2); padding: 10px; border-radius: 10px;"><a href="joelnkansah967@gmail.com">Send Email</a></button><br>
+              <label>Phone</label> <b>0500817279</b><br>
+              <label>WhatsApp</label> <b>0500817279</b>
+    </div>
+    <div class="alend">
+        <h1>Get Montly Update</h1><br>
+        <b>Enter your email</b><br>
+        <input type="email" style="width: 200px; height: 20px; padding:10px; background-color: burlywood; border-top: none; border-left: none; border-right: none; border-bottom: 1px solid grey;">
+    </div>
+</div>
+</div>
+<br><br><br>
+
+<div class="finished">
+    <b style="margin-left: 600px; color: white;">|C| 2024 CODE TECH</b>
+
+</div>
+
+
+    </body>
+</html>
